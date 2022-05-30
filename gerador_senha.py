@@ -1,12 +1,12 @@
 ####################################################################################################################
-#                     Algoritmo para criar uma senha com 16 caracteres que permite apenas 3 números                #
+#                     Algoritmo para criar uma senha com X caracteres que permite Y números                        #
 ####################################################################################################################
 
 import string
 import random
 
-qtd_caracteres_totais = 16
-qtd_numeros_permitidos = 3
+qtd_caracteres_totais = int(input('Quantidade de caracteres: '))
+qtd_numeros_permitidos = int(input('Quantidade de números permitidos: '))
 senha = ''
 
 for i in range(qtd_caracteres_totais):
